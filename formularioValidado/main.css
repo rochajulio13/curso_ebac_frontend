@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: slategray;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+
+form {
+    display: inline-block;
+    margin-left: 36%;
+    margin-top: 18px;
+    max-width: 360px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 16px;
+}
+
+button {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    margin-top: 16px;
+    background-color: black;
+    color: #fff;
+}
